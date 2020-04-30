@@ -10,6 +10,7 @@ import UIKit
 
 class NewEntryViewController: UIViewController {
 
+    private var imagePickerController = UIImagePickerController()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,13 +19,15 @@ class NewEntryViewController: UIViewController {
     
 
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
+    //DEtail controller
+     make the protocol delegate/ create protocol and function in here
+     
+     //Enum for photo state, make it chanfge if it has a photo loadedd or not
+     
+     it has two cases that detects newphoto/existing photo
+     
+   change state of view controller depending on whether or not a photo has been passed to it
+     this handles whether they add or
     */
-
+//make an instance of
 }

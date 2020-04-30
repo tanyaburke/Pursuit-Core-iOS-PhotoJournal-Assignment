@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4765FD23FDBC490019DBE5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4765FC23FDBC480019DBE5 /* CollectionViewCell.swift */; };
 		2E92538223FCC151000653C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92538123FCC151000653C5 /* AppDelegate.swift */; };
 		2E92538423FCC151000653C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92538323FCC151000653C5 /* SceneDelegate.swift */; };
 		2E92538623FCC151000653C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92538523FCC151000653C5 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E4765FC23FDBC480019DBE5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		2E92537E23FCC151000653C5 /* PhotoJournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoJournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E92538123FCC151000653C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E92538323FCC151000653C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E4765FE23FDBCCE0019DBE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E4765FC23FDBC480019DBE5 /* CollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2E92537523FCC151000653C5 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 				2E92538523FCC151000653C5 /* ViewController.swift */,
 				2E9253A623FCC896000653C5 /* SettingsViewController.swift */,
 				2E9253A323FCC7A7000653C5 /* NewEntryViewController.swift */,
+				2E4765FE23FDBCCE0019DBE5 /* Views */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -216,6 +227,7 @@
 			files = (
 				2E92538623FCC151000653C5 /* ViewController.swift in Sources */,
 				2E92538223FCC151000653C5 /* AppDelegate.swift in Sources */,
+				2E4765FD23FDBC490019DBE5 /* CollectionViewCell.swift in Sources */,
 				2E9253A423FCC7A7000653C5 /* NewEntryViewController.swift in Sources */,
 				2E9253A723FCC896000653C5 /* SettingsViewController.swift in Sources */,
 				2E92538423FCC151000653C5 /* SceneDelegate.swift in Sources */,

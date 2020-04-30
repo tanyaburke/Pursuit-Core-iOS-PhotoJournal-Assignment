@@ -10,10 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    //In the cell for row you need to use the present(viewcontroller, animation: truw)
+    //create instance of data persistence in this file, only place it should be created
+    
+    //the delegate get
 
 
 }
